@@ -1,0 +1,277 @@
+/* font links  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+/* common start  */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* common end  */
+
+
+/* header start  */
+header{
+    padding: 10px 0;
+    background-color: #F0FFF0;
+}
+.cus_navbar{}
+.logo{}
+.menu{}
+.menu ul li a{
+    padding: 0 50px 0 0 !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    transition: .60s;
+}
+.menu ul li:last-child a{
+    padding: 0 30px 0 0 !important;
+}
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+.btn_sign{}
+/* common button  */
+.btn_common{
+    padding: 7px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: #21B573;
+    border-radius: 33px;
+    transition: .33s linear;
+}
+.btn_common:hover{
+    color: white;
+    background-color: #FD511A;
+}
+.btn_common:active{
+    color: white;
+    background-color: #FD511A;
+}
+
+/* sign in start  */
+.modal {
+    --bs-modal-width: 1021px;
+    --bs-modal-padding: 1rem;
+    --bs-modal-bg: #000000;
+}   
+.modal-header {
+    border-bottom: var(--bs-modal-header-border-width) solid #000000;
+} 
+.login_cus{
+    border-radius: 1rem;
+}
+.p-5 {
+    padding: 2rem !important;
+}
+.btn_form{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255) !important;
+    background-color: #21B573 !important;
+    border-radius: 33px;
+    transition: .33s linear;
+}
+.btn_form:hover{
+    color: white !important;
+    background-color: #FD511A !important;
+}
+.btn_form:active{
+    color: white !important;
+    background-color: #FD511A !important;
+}
+.form_icon a{
+    margin-right: 20px;
+}
+.form_icon a:last-child{
+    margin-right: 0;
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+/* sign in end  */
+
+/* header end  */
+
+
+/* banner start  */
+.banner{
+    padding: 70px 0 50px;
+    background-color: #F0FFF0;
+}
+.banner_text{}
+.p_red{
+    margin: 0 0 7px 0;
+    color: #FD511A;
+}
+.banner_text h1{
+    padding-right: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 70px;
+}
+.banner_text h1 span{
+    color: #21B573;
+}
+.p_black{
+    margin: 20px 0;
+    line-height: 25px;
+}
+.banner_img{
+    text-align: center;
+}
+.banner_img img{}
+/* banner end  */
+
+
+/* features start  */
+.features{
+    margin: 5px 0 40px;
+}
+.feature_item{
+    margin-top: 60px;
+    padding: 60px 0 50px;
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    transition: .33s linear;
+}
+.feature_item:hover{
+    background-color: white;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10); 
+}
+.f_img{
+    width: 90px;
+    height: 65px;
+}
+.f_img img{}
+.feature_item h2{
+    margin: 40px 0 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+}
+.feature_item p{
+    color: #585859;
+}
+/* features end  */
+
+
+/* courses start  */
+.courses{
+    margin: 70px 0;
+}
+.cmn_courses{
+ 
+}
+.cmn_courses h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #413960;
+}
+.course_padd{}
+.courses_item{
+    margin: 70px 0 0;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.courses_item:hover{
+    box-shadow: 0 20px 40px 0px rgba(238, 15, 15, 0.1);
+}
+.course_img{}
+.course_img img{}
+.courses_item h2{
+    margin: 25px 0 10px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #413960;
+}
+.courses_item p{
+    color: #585859;
+}
+.btn_course{
+    margin: 0 0 20px 0;
+    padding: 10px 30px;
+}
+.course_footer{
+    margin: 0 0 25px 0;
+}
+.c_left{}
+.c_left ul li{}
+.c_left ul li img{}
+.c_left ul li span, .c_right ul li span{
+    font-weight: 600;
+    color: #585859;
+}
+.c_right{}
+.c_right ul li{}
+.c_right ul li img{}
+/* courses end  */
+
+/* teztimonial start  */
+.testimonial{
+    margin: 80px 0 0 0
+}
+.testimoni_title{}
+.testimoni_title h1{
+    margin: 0 0 50px 0;
+}
+.c_carousel{}
+.t_img{}
+.t_img img{}
+.t_text{}
+.t_text p{
+    padding-left: 40px;
+    line-height: 2;
+}
+/* testimonial end  */
+
+
+/* footer start  */
+footer{
+    margin: 80px 0 0 0;
+    padding: 50px 0 10px;
+    background-color: #282531;
+}
+.footer_1text{
+    margin-top: 65px;
+}
+.footer_1text p{
+    margin: 0;
+    color: white;
+}
+.footer2text{
+
+}
+.footer2text h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.footer2text ul li{
+    list-style: none;
+}
+.footer2text ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footerbtm{
+    margin-top: 100px;
+}
+.footerbtm p a{
+    color: #CDCDCD;
+}
+/* footer end  */
