@@ -373,6 +373,12 @@
         }
         /* testimonial end  */
 
+            /* footer start  */
+    .footerbtm {
+        margin-top: 70px;
+    }
+    /* footer end  */
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -382,6 +388,12 @@
         padding-right: 21px;
     }
     /* banner end  */
+
+    /* footer start  */
+    .footerbtm {
+        margin-top: 80px;
+    }
+    /* footer end  */
 
 
 }
