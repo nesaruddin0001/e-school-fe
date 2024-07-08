@@ -70,7 +70,7 @@
 
     /* courses start  */
     .course_padd{
-        padding: 0 35px !important;
+        padding: 0 20px !important;
     }
     .courses {
         margin: 50px 0;
@@ -92,7 +92,7 @@
         margin-right: 1px;
     }
     .c_left ul li span, .c_right ul li span {
-        font-size: 10px;
+        font-size: 12px;
     }
     /* courses end  */
 
@@ -137,7 +137,7 @@
         margin-top: 48px;
     }
     .footer_1text p {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 2;
     }
     .footerbtm p a{
