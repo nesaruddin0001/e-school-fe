@@ -91,6 +91,9 @@ header{
 .form_icon a:last-child{
     margin-right: 0;
 }
+.form_item{
+    color: white !important;
+}
 .gradient-custom {
     /* fallback for old browsers */
     background: #6a11cb;
